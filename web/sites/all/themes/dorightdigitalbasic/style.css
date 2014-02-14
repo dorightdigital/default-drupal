@@ -1,0 +1,173 @@
+@import url('css/reset.css');
+
+:link,
+:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.active:link {
+  color: #999;
+}
+
+body {
+  font-family: sans-serif;
+  background: #ddd;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  padding: 20px;
+  padding-top: 0;
+}
+
+body > header,
+body > main,
+body > footer {
+  font-size: 13px;
+  padding: 30px;
+  position: relative;
+}
+
+body > header,
+body > footer {
+  background: #666;
+  color: white;
+}
+
+body > footer {
+  margin-top: 30px;
+  line-height: 1.4em;
+}
+
+body > header {
+  text-shadow: 1px 2px 2px #999;
+}
+
+body > header h1 {
+  font-size: 35px;
+}
+
+body > header nav {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+body > header nav ul {
+  display: inline-block;
+}
+
+body > header nav ul li {
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+}
+
+body > header nav ul li a {
+  display: inline-block;
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+}
+
+body > header nav ul li a:link.active,
+body > header nav ul li a:link:active,
+body > header nav ul li a:link:hover {
+  background: #ccc;
+  color: #113;
+  border-radius: 3px;
+  margin: 0;
+  text-shadow: none;
+}
+
+body > header nav ul li a:link:hover {
+  background: #999;
+}
+
+body > main {
+  background: white;
+  line-height: 1.3em;
+  font-size: 16px;
+}
+
+body > main h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+body > main p,
+body > main ul {
+  padding-bottom: 10px;
+}
+
+body > main a:link {
+  color: #006;
+  font-weight: bold;
+}
+
+body > main a:link:hover {
+  color: #00f;
+  text-decoration: underline;
+}
+
+body > main ul {
+  padding-left: 30px;
+}
+
+body > footer dl dd,
+body > footer dl dt {
+  display: inline-block;
+}
+
+body > footer dl dt {
+  width: 150px;
+}
+
+@media (max-width: 650px) {
+
+  body > header {
+    text-align: center;
+  }
+
+  body > header nav {
+    margin-top: 15px;
+    position: static;
+  }
+
+  body > header nav ul {
+    border: 1px solid #aaa;
+  }
+
+  body > header nav ul li + li {
+    border-left: 1px solid #aaa;
+  }
+
+  body > header nav ul li a:link.active {
+    border-radius: 0;
+  }
+
+  body > footer dl:first-of-type {
+    margin-top: 15px;
+  }
+
+  body > footer dl dd,
+  body > footer dl dt {
+    display: block;
+    width: auto;
+  }
+
+  body > footer dl dd {
+    padding-left: 20px;
+  }
+}
+
+
+.node-person-page .field-name-field-image {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.node-person-page .field-name-field-role {
+  margin-bottom: 15px;
+  font-size: 20px;
+}

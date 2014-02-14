@@ -1,0 +1,11 @@
+name = dorightdigital-basic
+description = Basic theme for cliets
+version = 1.0
+engine = phptemplate
+core = 7.x
+stylesheets[all][] = style.css
+scripts[] = init.js
+
+screenshot = /screenshot.png
+
+; SETTINGS
