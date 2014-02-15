@@ -1,11 +1,7 @@
-name = dorightdigital-basic
-description = Basic theme for cliets
+name = dorightdigitalbasic
+description = Base stylesheet for DRD drupal projects
 version = 1.0
 engine = phptemplate
 core = 7.x
 stylesheets[all][] = style.css
 scripts[] = init.js
-
-screenshot = /screenshot.png
-
-; SETTINGS
