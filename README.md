@@ -9,7 +9,7 @@ I'm going to demonstrate this with a project I'm calling 'KAT' which should be b
 ```
 git clone git@github.com:dorightdigital/default-drupal.git KAT
 cd KAT/
-rm -rf .git
+rm -rf .git README.md
 git init .
 git add .
 git commit -am "Imported from Default Drupal."
